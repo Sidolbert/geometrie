@@ -7,8 +7,13 @@ public class Main {
 		
 		Point a = new Point();
 		Point b = new Point(2, 3.5);
+		Point c = new Point(1,2);
 		System.out.println(a);
 		System.out.println(b);
+		
+		//on teste un triangle
+		Triangle t1 = new Triangle(a,b,c);
+		System.out.println(t1);
 
 	}
 
