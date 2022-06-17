@@ -46,5 +46,18 @@ public abstract class Polygone extends Figure {
 		
 		return distance;
 	}
-	
+	@Override
+	public String toString() {
+		
+		String s = "le "+ this.getClass().getSimpleName()
+				+ " est fait des points ";
+		for(Point p : this.points) {
+			s += "\n" + p.toString();
+		}
+		s += "\nle point d'origine est " + this.origine.toString();
+		s += "\nson perimetre est " + this.perimetre();
+		s += "\nsa surface est " + this.surface();
+		return s;
+		
+	}
 }

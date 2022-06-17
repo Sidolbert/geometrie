@@ -16,6 +16,8 @@ public abstract class Figure implements Calcul {
 		this.origine = p;
 	}
 	
+	
+	
 	//on a pas besoin d'implémenter directement dans la classe abstraite
 	//les méthodes de l'interface : il faut juste qu'elles soient implémentées
 	//une fois dans les classes concrètes

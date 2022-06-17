@@ -22,18 +22,6 @@ public class Triangle extends Polygone {
 		return surf;
 	}
 	
-	@Override
-	public String toString() {
-		
-		String s = "le triangle est fait des points ";
-		for(Point p : this.points) {
-			s += "\n" + p.toString();
-		}
-		s += "\nle point d'origine est " + this.origine.toString();
-		s += "\nson perimetre est " + this.perimetre();
-		s += "\nsa surface est " + this.surface();
-		return s;
-		
-	}
+	
 
 }
